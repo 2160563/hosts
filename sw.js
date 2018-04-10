@@ -4,11 +4,11 @@ self.addEventListener('install', e => {
     caches.open('RestoMapp').then(cache => {
       return cache.addAll([
         				`/`,
-					'/index.html?timestamp=${timeStamp}`',
-					'/js/app.js?timestamp=${timeStamp}`',
-					'/css/styles.css?timestamp=${timeStamp}`',
-					'/images/Baguio.png?timestamp=${timeStamp}`',
-					'/images/marker.png?timestamp=${timeStamp}`'
+					`/index.html?timestamp=${timeStamp}`,
+					`/js/app.js?timestamp=${timeStamp}`,
+					`/css/styles.css?timestamp=${timeStamp}`,
+					`/images/Baguio.png?timestamp=${timeStamp}`,
+					`/images/marker.png?timestamp=${timeStamp}`
       ])
           .then(() => self.skipWaiting());
     })
