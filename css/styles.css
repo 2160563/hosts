@@ -1,0 +1,18 @@
+canvas#map{	
+	width: 1511px;
+	height: 836px ;
+	border-color: black;
+}
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 800px;
+}
+
+body{
+	margin: 0;
+}
+
+
